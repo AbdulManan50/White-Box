@@ -13,20 +13,24 @@ export default function App() {
     <>
       <Header />
       <div className="bg-[#F6F6F6] flex justify-between flex-col items-center pt-5">
-        <h1 className="text-[75px] leading-none text-center font-montserrat font-medium">
+        <h1 className="md:text-[75px] sm:text-5xl text-3xl leading-none text-center font-montserrat font-medium">
           Lets Bring Your <br />
           <span className="text-[#b00013]">Vision</span> To Life!
         </h1>
-        <p className="text-[#9ca3af] text-2xl font-Roboto font-light">
+        <p className="text-[#9ca3af] md:text-2xl text-lg font-Roboto font-light">
           Software And Web Development Company
         </p>
-        <img className="w-[35%]" src="./public/img/asset 1.png" alt="" />
+        <img
+          className="sm:w-[35%] w-[100%]"
+          src="./public/img/asset 1.png"
+          alt=""
+        />
       </div>
-      <div className="w-[1150px] mx-auto py-10">
+      <div className="md:w-[1150px] w-[95%] mx-auto py-10">
         <h1 className=" font-montserrat text-3xl font-semibold text-center">
           Services
         </h1>
-        <div className="flex">
+        <div className="md:flex hidden">
           <Card
             img1="./public/img/asset 2.svg"
             heading="Software Development"
@@ -53,9 +57,35 @@ export default function App() {
             bgColor="hover:bg-[#3E21A0]"
           />
         </div>
+        <div className="md:hidden sm:flex ">
+          <div className="flex sm:w-1/2">
+            <Card
+              img1="./public/img/asset 2.svg"
+              heading="Software Development"
+              bgColor="hover:bg-[#7987FF]"
+            />
+            <Card
+              img1="./public/img/asset 4.svg"
+              heading="Machine Learning & AI Solutions"
+              bgColor="hover:bg-[#006B6C]"
+            />
+          </div>
+          <div className="flex sm:w-1/2">
+            <Card
+              img1="./public/img/asset 5.svg"
+              heading="Graphic & UI/UX Design"
+              bgColor="hover:bg-[#FF7613]"
+            />
+            <Card
+              img1="./public/img/asset 6.svg"
+              heading="DevOps"
+              bgColor="hover:bg-[#AC0434]"
+            />
+          </div>
+        </div>
       </div>
       <div className="bg-[#F3F4F6]">
-        <div className="w-[1150px] mx-auto py-10">
+        <div className="md:w-[1150px] w-[95%] mx-auto py-10">
           <h1 className=" font-montserrat text-3xl font-semibold text-center">
             Process
           </h1>
@@ -85,7 +115,7 @@ export default function App() {
         </div>
       </div>
       <div className="bg-[#EAEAEA]">
-        <div className="w-[1100px] mx-auto py-10">
+        <div className="md:w-[1100px] w-[95%] mx-auto py-10">
           <h1 className=" font-montserrat text-3xl font-semibold text-center ">
             Portfolio
           </h1>
@@ -97,7 +127,7 @@ export default function App() {
             come to Life & Solutions
             <br /> Transform Businesses.
           </p>
-          <div className="flex justify-center pt-5 gap-5 flex-wrap ">
+          <div className="sm:flex  hidden justify-center pt-5 gap-5 flex-wrap ">
             <Portfolio
               ptheading="Bia"
               ptsubheading="Mobile & Web"
@@ -147,6 +177,64 @@ export default function App() {
               bgColor="bg-[#C76336]"
             />
           </div>
+          <div className="sm:hidden flex justify-center pt-5 gap-5 flex-wrap ">
+           <div className="flex gap-5 w-full">
+           <Portfolio
+              ptheading="Bia"
+              ptsubheading="Mobile & Web"
+              ptimg="./public/img/asset 11.png"
+              bgColor="bg-[#174F6A]"
+            />
+            <Portfolio
+              ptheading="Rent Managemnet "
+              ptsubheading="Website"
+              ptimg="./public/img/asset 13.png"
+              bgColor="bg-[#4B3FE8]"
+            />
+           </div>
+            <div className="flex gap-5 w-full">
+            <Portfolio
+              ptheading="Mobitra"
+              ptsubheading="Website"
+              ptimg="./public/img/asset 15.png"
+              bgColor="bg-[#458FE9]"
+            />
+            <Portfolio
+              ptheading="AMS"
+              ptsubheading="Mobile & Web"
+              ptimg="./public/img/asset 17.png"
+              bgColor="bg-[#000000]"
+            />
+            </div>
+            <div className="flex gap-5 w-full">
+            <Portfolio
+              ptheading="CrewDog"
+              ptsubheading="Mobile & Web"
+              ptimg="./public/img/asset 12.png"
+              bgColor="bg-[#2D71C2]"
+            />
+            <Portfolio
+              ptheading="Painel Constru-(Supplier) "
+              ptsubheading="Website"
+              ptimg="./public/img/asset 14.png"
+              bgColor="bg-[#175A6F]"
+            />
+            </div>
+            <div className="flex gap-5 w-full">
+            <Portfolio
+              ptheading="Image Processing"
+              ptsubheading="Website"
+              ptimg="./public/img/asset 16.png"
+              bgColor="bg-[#151629]"
+            />
+            <Portfolio
+              ptheading="Decod54"
+              ptsubheading="Website"
+              ptimg="./public/img/asset 18.png"
+              bgColor="bg-[#C76336]"
+            />
+            </div>
+          </div>
         </div>
       </div>
       <div className="py-10 font text-center">
@@ -163,10 +251,8 @@ export default function App() {
           Featured Clients
         </h1>
       </div>
-      <Companyslider/>
-      <Footer/>
-
-
+      <Companyslider />
+      <Footer />
     </>
   );
 }

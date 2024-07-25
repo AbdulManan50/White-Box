@@ -8,8 +8,8 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <div className="w-[1280px] mx-auto py-10">
-        <div className="flex justify-between items-center">
+      <div className="md:w-[1280px] w-[95%] mx-auto pb-5 pt-10">
+        <div className="flex sm:flex-row flex-col justify-between items-center">
           <div>
             <img className="w-[80%] pb-3" src="./public/img/logo.svg" alt="" />
             <p>
@@ -22,9 +22,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-2 border-dotted border-[#4B4B4B] border-b-[2px]"></div>
-        <div className="flex justify-between items-center py-2">
+        <div className="flex sm:flex-row flex-col justify-between items-center py-2">
           <div>
-            <p className="font-montserrat text-sm ">Copyright © 2024. All Rights Reserved.</p>
+            <p className="font-montserrat text-sm mb-3">Copyright © 2024. All Rights Reserved.</p>
           </div>
           <div className="flex gap-5 text-xl">
             <span>
@@ -45,6 +45,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </>
+    </> 
   );
 }
