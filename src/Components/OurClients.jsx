@@ -29,22 +29,22 @@ export default function OurClients() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className="w-[60%]" src="img/card-44.svg" alt="" />
+            <img className="w-[60%]" src="/img/card-44.svg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-[60%]"  src="img/card-44.svg" alt="" />
+            <img className="w-[60%]"  src="/img/card-44.svg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-[60%]"  src="img/card-44.svg" alt="" />
+            <img className="w-[60%]"  src="/img/card-44.svg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-[60%]"  src="img/card-44.svg" alt="" />
+            <img className="w-[60%]"  src="/img/card-44.svg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-[60%]"  src="img/card-44.svg" alt="" />
+            <img className="w-[60%]"  src="/img/card-44.svg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-[60%]"  src="img/card-44.svg" alt="" />
+            <img className="w-[60%]"  src="/img/card-44.svg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

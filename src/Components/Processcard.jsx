@@ -6,7 +6,7 @@ export default function Processcard(props) {
       <img className="w-[60%]" src={props.img2} alt="" />
       <h1 className="font-semibold text-2xl">{props.heading3}</h1>
       <p>{props.subgeading}</p>
-      <img src="img/asset 47.svg" alt=""/>
+      <img src="/img/asset 47.svg" alt=""/>
     </div>
   );
 }

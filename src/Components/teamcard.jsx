@@ -9,7 +9,7 @@ export default function Teamcard() {
       <div className="md:flex">
         <div className="md:w-[50%] w-full flex">
           <div className="w-[50%]">
-            <img className="h-full" src="img/asset 19.png" alt="" />
+            <img className="h-full" src="/img/asset 19.png" alt="" />
           </div>
           <div className="bg-black w-[50%] flex flex-col justify-between">
             <div className="flex text-white flex-col gap-y-5 text-[20px] items-end px-5 py-5">
@@ -36,7 +36,7 @@ export default function Teamcard() {
         </div>
         <div className="md:w-[50%] w-full flex md:flex-row flex-row-reverse">
           <div className="w-[50%]">
-            <img className="h-full" src="img/asset 24.png" alt="" />
+            <img className="h-full" src="/img/asset 24.png" alt="" />
           </div>
           <div className="bg-black w-[50%] flex flex-col justify-between">
             <div className="flex text-white flex-col gap-y-5 text-[20px] items-end px-5 py-5">
@@ -87,7 +87,7 @@ export default function Teamcard() {
             </div>
           </div>
           <div className="w-[50%]">
-            <img className="h-full" src="img/asset 25.png" alt="" />
+            <img className="h-full" src="/img/asset 25.png" alt="" />
           </div>
         </div>
         <div className="md:w-[50%] w-full flex">
@@ -114,7 +114,7 @@ export default function Teamcard() {
             </div>
           </div>
           <div className="w-[50%]">
-            <img className="h-full" src="img/asset 27.png" alt="" />
+            <img className="h-full" src="/img/asset 27.png" alt="" />
           </div>
         </div>
       </div>

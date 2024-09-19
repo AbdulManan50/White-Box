@@ -22,7 +22,7 @@ export default function App() {
         </p>
         <img
           className="sm:w-[35%] w-[100%]"
-          src="img/asset 1.png"
+          src="/img/asset 1.png"
           alt=""
         />
       </div>
@@ -32,27 +32,27 @@ export default function App() {
         </h1>
         <div className="md:flex hidden">
           <Card
-            img1="img/asset 2.svg"
+            img1="/img/asset 2.svg"
             heading="Software Development"
             bgColor="hover:bg-[#7987FF]"
           />
           <Card
-            img1="img/asset 4.svg"
+            img1="/img/asset 4.svg"
             heading="Machine Learning & AI Solutions"
             bgColor="hover:bg-[#006B6C]"
           />
           <Card
-            img1="img/asset 5.svg"
+            img1="/img/asset 5.svg"
             heading="Graphic & UI/UX Design"
             bgColor="hover:bg-[#FF7613]"
           />
           <Card
-            img1="img/asset 6.svg"
+            img1="/img/asset 6.svg"
             heading="DevOps"
             bgColor="hover:bg-[#AC0434]"
           />
           <Card
-            img1="img/asset 7.svg"
+            img1="/img/asset 7.svg"
             heading="Search Engine Optimization"
             bgColor="hover:bg-[#3E21A0]"
           />
@@ -60,24 +60,24 @@ export default function App() {
         <div className="md:hidden sm:flex ">
           <div className="flex sm:w-1/2">
             <Card
-              img1="img/asset 2.svg"
+              img1="/img/asset 2.svg"
               heading="Software Development"
               bgColor="hover:bg-[#7987FF]"
             />
             <Card
-              img1="img/asset 4.svg"
+              img1="/img/asset 4.svg"
               heading="Machine Learning & AI Solutions"
               bgColor="hover:bg-[#006B6C]"
             />
           </div>
           <div className="flex sm:w-1/2">
             <Card
-              img1="img/asset 5.svg"
+              img1="/img/asset 5.svg"
               heading="Graphic & UI/UX Design"
               bgColor="hover:bg-[#FF7613]"
             />
             <Card
-              img1="img/asset 6.svg"
+              img1="/img/asset 6.svg"
               heading="DevOps"
               bgColor="hover:bg-[#AC0434]"
             />
@@ -97,17 +97,17 @@ export default function App() {
           </p>
           <div className="flex pt-5">
             <Processcard
-              img2="img/asset 8.svg"
+              img2="/img/asset 8.svg"
               heading3="STARTUP"
               subgeading="Launch Your Idea"
             />
             <Processcard
-              img2="img/asset 9.svg"
+              img2="/img/asset 9.svg"
               heading3="MIDSIZE"
               subgeading="Develop Your Solution"
             />
             <Processcard
-              img2="img/asset 10.svg"
+              img2="/img/asset 10.svg"
               heading3="ENTERPRISE"
               subgeading="Scale Your Business"
             />
@@ -131,49 +131,49 @@ export default function App() {
             <Portfolio
               ptheading="Bia"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 11.png"
+              ptimg="/img/asset 11.png"
               bgColor="bg-[#174F6A]"
             />
             <Portfolio
               ptheading="Rent Managemnet "
               ptsubheading="Website"
-              ptimg="img/asset 13.png"
+              ptimg="/img/asset 13.png"
               bgColor="bg-[#4B3FE8]"
             />
             <Portfolio
               ptheading="Mobitra"
               ptsubheading="Website"
-              ptimg="img/asset 15.png"
+              ptimg="/img/asset 15.png"
               bgColor="bg-[#458FE9]"
             />
             <Portfolio
               ptheading="AMS"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 17.png"
+              ptimg="/img/asset 17.png"
               bgColor="bg-[#000000]"
             />
             <Portfolio
               ptheading="CrewDog"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 12.png"
+              ptimg="/img/asset 12.png"
               bgColor="bg-[#2D71C2]"
             />
             <Portfolio
               ptheading="Painel Constru-(Supplier) "
               ptsubheading="Website"
-              ptimg="img/asset 14.png"
+              ptimg="/img/asset 14.png"
               bgColor="bg-[#175A6F]"
             />
             <Portfolio
               ptheading="Image Processing"
               ptsubheading="Website"
-              ptimg="img/asset 16.png"
+              ptimg="/img/asset 16.png"
               bgColor="bg-[#151629]"
             />
             <Portfolio
               ptheading="Decod54"
               ptsubheading="Website"
-              ptimg="img/asset 18.png"
+              ptimg="/img/asset 18.png"
               bgColor="bg-[#C76336]"
             />
           </div>
@@ -182,13 +182,13 @@ export default function App() {
            <Portfolio
               ptheading="Bia"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 11.png"
+              ptimg="/img/asset 11.png"
               bgColor="bg-[#174F6A]"
             />
             <Portfolio
               ptheading="Rent Managemnet "
               ptsubheading="Website"
-              ptimg="img/asset 13.png"
+              ptimg="/img/asset 13.png"
               bgColor="bg-[#4B3FE8]"
             />
            </div>
@@ -196,13 +196,13 @@ export default function App() {
             <Portfolio
               ptheading="Mobitra"
               ptsubheading="Website"
-              ptimg="img/asset 15.png"
+              ptimg="/img/asset 15.png"
               bgColor="bg-[#458FE9]"
             />
             <Portfolio
               ptheading="AMS"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 17.png"
+              ptimg="/img/asset 17.png"
               bgColor="bg-[#000000]"
             />
             </div>
@@ -210,13 +210,13 @@ export default function App() {
             <Portfolio
               ptheading="CrewDog"
               ptsubheading="Mobile & Web"
-              ptimg="img/asset 12.png"
+              ptimg="/img/asset 12.png"
               bgColor="bg-[#2D71C2]"
             />
             <Portfolio
               ptheading="Painel Constru-(Supplier) "
               ptsubheading="Website"
-              ptimg="img/asset 14.png"
+              ptimg="/img/asset 14.png"
               bgColor="bg-[#175A6F]"
             />
             </div>
@@ -224,13 +224,13 @@ export default function App() {
             <Portfolio
               ptheading="Image Processing"
               ptsubheading="Website"
-              ptimg="img/asset 16.png"
+              ptimg="/img/asset 16.png"
               bgColor="bg-[#151629]"
             />
             <Portfolio
               ptheading="Decod54"
               ptsubheading="Website"
-              ptimg="img/asset 18.png"
+              ptimg="/img/asset 18.png"
               bgColor="bg-[#C76336]"
             />
             </div>

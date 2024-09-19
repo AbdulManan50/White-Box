@@ -7,7 +7,7 @@ export default function Header() {
       <div className="bg-[#F6F6F6]">
         <div className="w-[95%] mx-auto flex justify-between py-3">
           <div>
-            <img src="img/logo.svg" alt="" />
+            <img src="/img/logo.svg" alt="" />
           </div>
           <div className="md:hidden block">
             <FaAlignRight className="text-2xl" />

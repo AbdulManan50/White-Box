@@ -22,25 +22,25 @@ export default function CompanySlider() {
       className="mySwiper "
     > 
     <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 28.svg" alt="" />
+        <img className="w-[60%]" src="/img/asset 28.svg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 29.svg" alt="" />
+        <img className="w-[60%]" src="/img/asset 29.svg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 30.svg" alt="" />
+        <img className="w-[60%]" src="/img/asset 30.svg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 31.png" alt="" />
+        <img className="w-[60%]" src="/img/asset 31.png" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 32.svg" alt="" />
+        <img className="w-[60%]" src="/img/asset 32.svg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 33.svg" alt="" />
+        <img className="w-[60%]" src="/img/asset 33.svg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="w-[60%]" src="img/asset 34.png" alt="" />
+        <img className="w-[60%]" src="/img/asset 34.png" alt="" />
       </SwiperSlide>
     </Swiper>
     </div>
