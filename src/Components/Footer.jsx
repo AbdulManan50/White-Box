@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="md:w-[1280px] w-[95%] mx-auto pb-5 pt-10">
         <div className="flex sm:flex-row flex-col justify-between items-center">
           <div>
-            <img className="w-[80%] pb-3" src="./public/img/logo.svg" alt="" />
+            <img className="w-[80%] pb-3" src="img/logo.svg" alt="" />
             <p>
               The Intersection Of Innovation And Execution<br></br> Gives Rise
               To Exceptional Solutions.
